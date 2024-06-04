@@ -1,3 +1,5 @@
+import Filters from "@/components/Filters";
+import SearchForm from "@/components/SearchForm";
 import React from "react";
 
 const page = () => {
@@ -12,7 +14,9 @@ const page = () => {
 						JavaScript Resources
 					</h1>
 				</div>
+				<SearchForm />
 			</section>
+			<Filters />
 		</main>
 	);
 };
